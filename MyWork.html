@@ -6,16 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <title>Bonnie Yip</title>
-<!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/custom.css" rel="stylesheet">
 <link href="css/WorkFeatures.css" rel="stylesheet">
-<link
-	href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
-	rel="stylesheet">
-<link
-	href="https://fonts.googleapis.com/css?family=Raleway|Dancing+Script"
-	rel="stylesheet">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway|Dancing+Script" rel="stylesheet">
 </head>
 
 <body>
@@ -44,44 +39,94 @@
 
 	<div class="container">
 		<div class="jumbotron text-center">
+		
+			<!-- First Row -->
 			<div class="row">
 				<div class="col-sm-6">
-					<h2>Educating Young Eyes</h2>
+					<div class="hovereffect">
+						<img class="img-responsive" src="img/EYE.png"
+							alt="Educating Young Eyes">
+						<div class="overlay">
+							<h2>Educating Young Eyes</h2>
+							<a class="info" target="_blank"
+								href="http://www.educatingyoungeyes.com/">Go to site</a><br>
+							<a class="info" href="#EyeMoreInfo" data-toggle="modal">More
+								Info</a>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-6">
-					<h2>CISS</h2>
+					<div class="hovereffect">
+						<img class="img-responsive" src="img/Questions.png" alt="CISS">
+						<div class="overlay">
+							<h2>CISS</h2>
+							<a class="info" target="_blank"
+								href="https://www.youtube.com/watch?v=imtLsjdln5E&feature=youtu.be">Visual
+								Demo</a><br> <a class="info" href="#CISSMoreInfo"
+								data-toggle="modal">More Info</a>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-	</div>
+			<br> <br>
+			
+			<!-- Second Row -->
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="hovereffect">
+						<img class="img-responsive" src="" alt="Movie Rental">
+						<div class="overlay">
+							<h2>Movie Rental</h2>
+							<a class="info" href="#MovieRentalInfo" data-toggle="modal">More
+								Info</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="hovereffect">
+						<img class="img-responsive" src="img/springs.png"
+							alt="Through the Springs">
+						<div class="overlay">
+							<h2>Through The Springs</h2>
+							<a class="info" target="_blank"
+								href="https://github.com/ThroughTheSprings">GitHub
+								Repository</a><br> <a class="info" target="_blank"
+								href="https://cdn.rawgit.com/ThroughTheSprings/Demo-1/master/FP_Through_The_Springs_Final_3.html">Interactive
+								Demo</a><br> <a class="info" href="#SpringsMoreInfo"
+								data-toggle="modal">More Info</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br> <br>
 
-	<div class="container">
-		<div class="jumbotron text-center">
+			<!-- Third Row -->
 			<div class="row">
 				<div class="col-sm-6">
-					<h2>Movie Rental</h2>
+					<div class="hovereffect">
+						<img class="img-responsive" src="img/Disassembler.jpg"
+							alt="MC6800">
+						<div class="overlay">
+							<h2>M68000 Disassembler</h2>
+							<a class="info" target="_blank"
+								href="https://github.com/ThreeBlindMice422">GitHub
+								Repository</a><br> <a class="info" href="#DisassemblerInfo"
+								data-toggle="modal">More Info</a>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-6">
-					<h2>Through the Springs</h2>
+					<div class="hovereffect">
+						<img class="img-responsive" src="" alt="Jolly Banker">
+						<div class="overlay">
+							<h2>Jolly Banker</h2>
+							<a class="info" href="#JollyBankerInfo" data-toggle="modal">More
+								Info</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	</div>
-
-	<div class="container">
-		<div class="jumbotron text-center">
-			<div class="row">
-				<div class="col-sm-6">
-					<h2>M68000 Disassembler</h2>
-				</div>
-				<div class="col-sm-6">
-					<h2>Jolly Banker</h2>
-				</div>
-			</div>
-		</div>
-	</div>
 	</div>
 
 	<!-- Fixed footer -->
@@ -104,10 +149,95 @@
 		</div>
 	</div>
 
+	<!-- Placed at the end of the document so the pages load faster -->
+	<div class="modal fade" id="EyeMoreInfo" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4>Educating Young Eyes</h4>
+				</div>
+				<div class="modal-body"></div>
+				<div class="modal-footer">
+					<a class="btn btn-secondary" data-dismiss="modal">Close</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="CISSMoreInfo" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4>Convergence Insufficiency Symptom Survey</h4>
+				</div>
+				<div class="modal-body"></div>
+				<div class="modal-footer">
+					<a class="btn btn-secondary" data-dismiss="modal">Close</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="SpringsMoreInfo" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4>Through the Springs</h4>
+				</div>
+				<div class="modal-body"></div>
+				<div class="modal-footer">
+					<a class="btn btn-secondary" data-dismiss="modal">Close</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="MovieRentalInfo" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4>Movie Rental</h4>
+				</div>
+				<div class="modal-body"></div>
+				<div class="modal-footer">
+					<a class="btn btn-secondary" data-dismiss="modal">Close</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="DisassemblerInfo" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4>M68000 Disassembler</h4>
+				</div>
+				<div class="modal-body"></div>
+				<div class="modal-footer">
+					<a class="btn btn-secondary" data-dismiss="modal">Close</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="JollyBankerInfo" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4>Jolly Banker</h4>
+				</div>
+				<div class="modal-body"></div>
+				<div class="modal-footer">
+					<a class="btn btn-secondary" data-dismiss="modal">Close</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script
-		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
